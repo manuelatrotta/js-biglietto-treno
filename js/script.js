@@ -6,5 +6,7 @@ console .log (kmPercorso);
 var etaUtente = parseInt (prompt ('Inserire la tua età'));
 console .log (etaUtente);
 //moltiplicare km da percorrere con prezzo al km per avere prezzo biglietto
+var prezzoBiglietto = kmPercorso * 0.21;
+console .log (prezzoBiglietto);
 //vedere se età<=18 applicare sconto 20%
 // se età >=65 applicare sconto 40%

@@ -9,4 +9,9 @@ console .log (etaUtente);
 var prezzoBiglietto = kmPercorso * 0.21;
 console .log (prezzoBiglietto);
 //vedere se età<=18 applicare sconto 20%
+var scontoMinorenni = (prezzoBiglietto* 20 / 100);
+var prezzoMinorenni = (prezzoBiglietto - scontoMinorenni);
+if (etaUtente <=18) {
+  console .log (prezzoMinorenni);
+}
 // se età >=65 applicare sconto 40%

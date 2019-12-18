@@ -15,3 +15,8 @@ if (etaUtente <=18) {
   console .log (prezzoMinorenni);
 }
 // se età >=65 applicare sconto 40%
+var scontoOver = (prezzoBiglietto* 40 / 100);
+var prezzoOver = (prezzoBiglietto - scontoOver);
+if (etaUtente >=65) {
+  console .log (prezzoOver);
+}

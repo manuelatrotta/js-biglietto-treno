@@ -3,28 +3,63 @@
   <head>
     <meta charset="utf-8">
     <title>biglietto treno</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <h1>Calcola il prezzo del tuo biglietto</h1>
     <section class="ticket-train">
-      <h1>Calcola il prezzo del tuo biglietto</h1>
       <div class="calcolo-prezzo">
-        <label for="nome">Nome Cognome</label>
-          <input id="nomeutente" type="text" name="nome-cognome" value="" placeholder="Nome">
-        <label for="kmdapercorrere">Km da percorrere</label>
-          <input id="kmdapercorrere" type="text" name="kmdapercorrere" value="" placeholder="kmdapercorrere">
-          <label for="eta"> Fascia D'età</label>
-            <select id="eta">
-              <option value="Maggiorenne">Maggiorenne</option>
-              <option value="under">Under</option>
-              <option value="Over65">Over65</option>
-            </select>
+        <div class="box-dati">
+          <label for="nome">Nome Cognome</label>
+            <input id="nomeutente" type="text" name="nome-cognome" value="" placeholder="Nome">
+        </div>
+        <div class="box-dati">
+          <label for="kmdapercorrere">Km da percorrere</label>
+            <input id="kmdapercorrere" type="text" name="kmdapercorrere" value="" placeholder="kmdapercorrere">
+        </div>
+        <div class="box-dati">
+          <select id="eta">
+            <option value="Maggiorenne">Maggiorenne</option>
+            <option value="under">Under</option>
+            <option value="Over65">Over65</option>
+          </select>
+        </div>
       </div>
-      <h2 id="kmPercorso"></h2>
-      <p id="prezzoBiglietto"></p>
-      <p id="prezzoMinorenni"></p>
-      <p id="prezzoOver"></p>
-      <p id="prezzostandard"></p>
+      <div class="calcolo-prezzo">
+        <div class="box-buttons">
+          <div class="buttons">
+          <button id="genera"type="button" name="button">Genera</button>
+          <button id="annulla" type="button" name="button">Annulla</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1>Il tuo biglietto</h1>
+    <section class="iltuobiglietto">
+      <h2>dettaglio passeggeri</h2>
+      <div class="biglietto-passeggero">
+        <div class="nomepasseggero"></div>
+
+        <div class="dati-biglietto">
+          <div class="dettaglio-biglietto">lorem</div>
+        </div>
+        <div class="dati-biglietto">
+          <div class="dettaglio-biglietto">lorem</div>
+        </div>
+        <div class="dati-biglietto">
+          <div class="dettaglio-biglietto">lorem</div>
+        </div>
+        <div class="dati-biglietto">
+          <div class="dettaglio-biglietto">lorem</div>
+        </div>
+        <div class="dati-biglietto">
+          <div class="dettaglio-biglietto">lorem</div>
+        </div>
+
+      </div>
+
+      </div>
+
     </section>
   <script src="js/script.js" charset="utf-8"></script>
   </body>

@@ -3,9 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>biglietto treno</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <section class="ticket-train">
+      <h1>Calcola il prezzo del tuo biglietto</h1>
+      <div class="calcolo-prezzo">
+        <label for="nome">Nome Cognome</label>
+          <input id="nomeutente" type="text" name="nome-cognome" value="" placeholder="Nome">
+        <label for="kmdapercorrere">Km da percorrere</label>
+          <input id="kmdapercorrere" type="text" name="kmdapercorrere" value="" placeholder="kmdapercorrere">
+          <label for="eta"> Fascia D'età</label>
+            <select id="eta">
+              <option value="Maggiorenne">Maggiorenne</option>
+              <option value="under">Under</option>
+              <option value="Over65">Over65</option>
+            </select>
+      </div>
       <h2 id="kmPercorso"></h2>
       <p id="prezzoBiglietto"></p>
       <p id="prezzoMinorenni"></p>

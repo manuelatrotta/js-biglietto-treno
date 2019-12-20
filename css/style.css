@@ -1,59 +1,60 @@
-*{
+* {
   margin: 0;
-  top: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #ff0098;
-}
-.ticket-train{
-  width: 70%;
-  height: 200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+body {
+  background-color: #B91350;
+  font-size: 16px;
 }
 
-.calcolo-prezzo{
+.title {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.dati{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 4px rgba( 0, 0, 0, 1);
+}
+.row {
+  text-align:center;
+}
+.coloumn{
+  margin: 10px;
+}
+/*.wrapper {
+  background-color: white;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.row {
   display: flex;
   flex-direction: row;
-}
-.box-dati{
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  padding: 50px;
-}
-.box-buttons{
-  display: flex;
-  flex-direction: row;
-  justify-content:center;
   align-items: center;
 }
-.iltuobiglietto{
-  width: 70%;
-  height: 200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: white;
-}
-.biglietto-passeggero{
+
+.col {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 150px;
-  margin: 0 auto;
-  background-color: red;
+  flex-direction: column;
+  margin: 20px;
 }
-.nomepasseggero{
-  width: 20%;
-  height: 150px;
-  background-color: grey;
-}
-.dettaglio-biglietto{
-  display: flex;
-  flex-direction: row;
-  padding-left: 50px;
-}
+
+button {
+  margin: 5px;
+  padding: 3px;
+  background-color: #D2D2D2;
+  color: #B91350;
+  font-size: 18px;
+  border: 1px solid grey;
+  font-weight: bold;
+  border-radius: 3px;
+}*/

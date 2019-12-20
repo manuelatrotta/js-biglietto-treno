@@ -10,6 +10,7 @@ body {
 }
 
 .title {
+  margin: 20px;
   text-transform: uppercase;
   color: white;
   text-align: center;
@@ -43,6 +44,7 @@ input{
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #891350;
+  color: #891350;
 }
 input:focus,
 select:focus{
@@ -75,34 +77,8 @@ select{
   color: #fff;
   background-color: grey;
 }
-/*.wrapper {
-  background-color: white;
-  width: 60%;
+.biglietto{
+  background-color: #fff;
+  width: 80%;
   margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-}
-
-button {
-  margin: 5px;
-  padding: 3px;
-  background-color: #D2D2D2;
-  color: #B91350;
-  font-size: 18px;
-  border: 1px solid grey;
-  font-weight: bold;
-  border-radius: 3px;
-}*/

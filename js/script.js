@@ -1,4 +1,13 @@
 //alert("click ok for visit this page!");
+var buttonGenera = document.getElementById('genera');
+buttonGenera.addEvenListener('click',
+function () {
+  var nameImput
+  var name = nameImput.value;
+  console.log(name);
+
+  var inputKm
+})
 //chiedere i km da percorrere
 //var kmPercorso = parseInt (prompt ('Inserire i km da percorrere'));
 //console.log(kmPercorso);

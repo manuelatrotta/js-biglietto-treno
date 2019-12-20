@@ -27,8 +27,53 @@ body {
   text-align:center;
 
 }
-.coloumn{
+.col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 10px;
+}
+.label{
+  margin-bottom: 10px;
+  color: #891350;
+}
+input{
+  height: 25px;
+  line-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #891350;
+}
+input:focus,
+select:focus{
+  background-color:  #891350;
+  color: #fff;
+}
+input::placeholder{
+  text-align: center;
+}
+input:focus::placeholder{
+  color: #fff;
+}
+select{
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #891350;
+}
+.btn{
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgba( 0, 0, 0, 0.2);
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: #891350;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+  color: #fff;
+  background-color: grey;
 }
 /*.wrapper {
   background-color: white;

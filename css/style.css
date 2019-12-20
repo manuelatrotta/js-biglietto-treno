@@ -22,7 +22,10 @@ body {
   box-shadow: 4px rgba( 0, 0, 0, 1);
 }
 .row {
+  display: flex;
+  justify-content: center;
   text-align:center;
+
 }
 .coloumn{
   margin: 10px;

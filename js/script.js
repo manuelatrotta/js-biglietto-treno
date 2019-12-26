@@ -1,13 +1,22 @@
 //alert("click ok for visit this page!");
 var buttonGenera = document.getElementById('genera');
-buttonGenera.addEvenListener('click',
-function () {
-  var nameImput
-  var name = nameImput.value;
-  console.log(name);
+buttonGenera.addEventListener('click',
+function(){
+  var inputName = document.getElementById('nomeUtente');
+  var nomeUtente = inputName.value;
+  console.log(nomeUtente);
 
-  var inputKm
-})
+  var inputKm = document.getElementById('km');
+  var kmDaPercorrere = inputKm.value;
+  console.log(kmDaPercorrere);
+
+  var rangeEtaSelect = document.getElementById('range-eta');
+  var fascia = rangeEtaSelect.value;
+  console.log(fascia);
+}
+)
+//  var inputKm
+//})
 //chiedere i km da percorrere
 //var kmPercorso = parseInt (prompt ('Inserire i km da percorrere'));
 //console.log(kmPercorso);

@@ -23,11 +23,18 @@ function(){
 
     if(fascia=='minorenne'){
     prezzoBiglietto -= ((prezzoBiglietto * 20) / 100);
+    offerta = 'Sconto Minorenne'
 
     } else if(fascia=='Over65'){
       prezzoBiglietto -= ((prezzoBiglietto * 40) / 100);
+      offerta = 'Sconto Silver'
     }
+    var carrozza = Math.floor(Math.random() * 9) + 1;
+    var cp = Math.floor(Math.random() *(100000 - 90000 + 1) ) + 90000;
     document.getElementById('nomeUtente').innerHTML = name;
     document.getElementById('offerta').innerHTML = offerta;
+    document.getElementById('costobiglietto').innerHTML = prezzoBiglietto.toFixed(2);
+    document.getElementById('carrozza').innerHTML = carrozza;
+    document.getElementById('codiceCp').innerHTML = cp;
   }
 );

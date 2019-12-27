@@ -78,6 +78,7 @@ select{
   background-color: grey;
 }
 .biglietto{
+  display: flex;
   background-color: #fff;
   width: 80%;
   margin: 0 auto;
@@ -87,7 +88,6 @@ select{
   text-transform: uppercase;
   vertical-align: middle;
 }
-.dettaglio-biglietto{
-  margin-top: 0;
-
+.table{
+  margin-left: 20px;
 }

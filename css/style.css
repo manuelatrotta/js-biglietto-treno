@@ -82,3 +82,12 @@ select{
   width: 80%;
   margin: 0 auto;
 }
+.h3_biglietto{
+  margin: 30px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.dettaglio-biglietto{
+  margin-top: 0;
+
+}

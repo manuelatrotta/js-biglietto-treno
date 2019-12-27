@@ -31,7 +31,7 @@ function(){
     }
     var carrozza = Math.floor(Math.random() * 9) + 1;
     var cp = Math.floor(Math.random() *(100000 - 90000 + 1) ) + 90000;
-    document.getElementById('nomeUtente').innerHTML = name;
+    document.getElementById('nomepasseggero').innerHTML = nomeUtente;
     document.getElementById('offerta').innerHTML = offerta;
     document.getElementById('costobiglietto').innerHTML = prezzoBiglietto.toFixed(2);
     document.getElementById('carrozza').innerHTML = carrozza;

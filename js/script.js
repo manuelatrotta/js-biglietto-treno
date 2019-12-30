@@ -1,4 +1,4 @@
-//alert("click ok for visit this page!");
+//btn genera
 var buttonGenera = document.getElementById('genera');
 buttonGenera.addEventListener('click',
 function(){
@@ -20,7 +20,7 @@ function(){
 
   var offerta = 'Tariffa standard';
 
-
+    //condizioni per offerta costo biglietto
     if(fascia=='minorenne'){
     prezzoBiglietto -= ((prezzoBiglietto * 20) / 100);
     offerta = 'Sconto Minorenne'
@@ -37,4 +37,17 @@ function(){
     document.getElementById('carrozza').innerHTML = carrozza;
     document.getElementById('codiceCp').innerHTML = cp;
   }
-);
+)
+//btn annulla
+var annulla = document.getElementById('annulla');
+annulla.addEventListener("click",
+  function () {
+  document.getElementById('nomeUtente').value = ("");
+  document.getElementById('km').value = ("");
+  document.getElementById('nomepasseggero').innerHTML = ("");
+  document.getElementById('offerta').innerHTML = ("");
+  document.getElementById('carrozza').innerHTML = ("");
+  document.getElementById('codiceCp').innerHTML = ("");
+  document.getElementById('costobiglietto').innerHTML = ("");
+  }
+)
